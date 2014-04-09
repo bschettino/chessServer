@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1525649320">
+    <data-source source="LOCAL" name="Rails apuracao: publico_homologacao" uuid="cd3738ff-367c-4c00-937a-9094563084d6">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysqlcorp.nti.uff.br/PUBLICO_HOMOLOG</jdbc-url>
+      <user-name>PUBLICO_H_W</user-name>
+      <user-password>dfc2dfc5dfc7dfc5dfdddf98df9adf9bdf9bdfdadfdfdfc8dfc6</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails apuracao: publico_development" uuid="65c56724-aeee-4bdd-99cb-f3843042c85c">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/publico_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfd0dfd0dfc1df9ddf9cdf9cdf98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails apuracao: publico_test" uuid="79dd552e-3770-47f6-9e96-9681b39e1f8f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/publico_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfd0dfd0dfc1df9ddf9cdf9cdf98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails apuracao: development" uuid="376fd9bb-575a-4d78-ae82-765c3f36eb45">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/comissaoeleitoral_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfd0dfd0dfc1df9ddf9cdf9cdf98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails apuracao: test" uuid="e07b3f47-6ed0-49a5-b269-64a7a489445f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/comissaoeleitoral_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfd0dfd0dfc1df9ddf9cdf9cdf98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails apuracao: production" uuid="d4de6c49-1d82-4f63-9770-3c12a817c494">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/comissaoeleitoral_production</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfd0dfd0dfc1df9ddf9cdf9cdf98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails apuracao: publico_production" uuid="804a4c8a-35e7-40f2-b5a4-fc951e898a95">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysqlcorp.nti.uff.br/PUBLICO_PROD</jdbc-url>
+      <user-name>PUBLICO_PROD</user-name>
+      <user-password>dfdadfd8dfc5dfcedf98df9adf9bdf9bdfdadfdfdfc8</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
