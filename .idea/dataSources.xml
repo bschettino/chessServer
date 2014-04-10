@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1525649320">
+  <component name="DataSourceManagerImpl" format="xml" hash="3312928400">
     <data-source source="LOCAL" name="Rails apuracao: publico_homologacao" uuid="cd3738ff-367c-4c00-937a-9094563084d6">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
@@ -55,6 +55,68 @@
       <jdbc-url>jdbc:mysql://mysqlcorp.nti.uff.br/PUBLICO_PROD</jdbc-url>
       <user-name>PUBLICO_PROD</user-name>
       <user-password>dfdadfd8dfc5dfcedf98df9adf9bdf9bdfdadfdfdfc8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sctm: homologacao" uuid="ba3b92d9-423f-4bc1-b42a-a0ff39102ade">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysqlcorp.nti.uff.br/saci_homolog</jdbc-url>
+      <user-name>saci_homolog</user-name>
+      <user-password>dfc2dfc5dfc7dfc5df9bdf9fdfd9dfcbdfc9dfc3dfc4dfdedfda</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sctm: development" uuid="54e2a996-ebb6-4438-943b-107cd8ee0f60">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/SACI_development</jdbc-url>
+      <user-name>saci</user-name>
+      <user-password>dfd9dfcbdfc9dfc3</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sctm: test" uuid="6c2f5e93-1caf-4d0a-bea2-4c580acf6c81">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/SACI_test</jdbc-url>
+      <user-name>saci</user-name>
+      <user-password>dfd9dfcbdfc9dfc3</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sctm: cucumber" uuid="b45be890-d31b-4f35-9bac-51c13a4b4991">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/SACI_test</jdbc-url>
+      <user-name>saci</user-name>
+      <user-password>dfd9dfcbdfc9dfc3</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails chessServer: development" uuid="49530862-d979-4642-b7d2-57a538582e65">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/chess_server_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfd0dfd0dfc1df9ddf9cdf9cdf98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails chessServer: test" uuid="399dbbb6-c6bc-4318-ad51-ced71510d696">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/chess_server_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdedfd0dfd0dfc1df9ddf9cdf9cdf98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ppge1: development" uuid="f5a796cc-029c-4f66-b9f9-31d2f0ad120e">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/ppge_development</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ppge1: test" uuid="4a95c3a1-7052-4c18-8d44-018ba57ee11f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/ppge_test</jdbc-url>
+      <user-name>root</user-name>
       <libraries />
     </data-source>
   </component>

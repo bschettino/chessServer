@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../api_sispos" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/../apuracao" vcs="svn" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../sctm" vcs="svn" />
   </component>
 </project>
 

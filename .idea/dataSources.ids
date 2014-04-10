@@ -21,4 +21,22 @@
   <data-source source="LOCAL" name="Rails apuracao: publico_production" uuid="804a4c8a-35e7-40f2-b5a4-fc951e898a95">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails sctm: homologacao" uuid="ba3b92d9-423f-4bc1-b42a-a0ff39102ade">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails sctm: development" uuid="54e2a996-ebb6-4438-943b-107cd8ee0f60">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails sctm: test" uuid="6c2f5e93-1caf-4d0a-bea2-4c580acf6c81">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails sctm: cucumber" uuid="b45be890-d31b-4f35-9bac-51c13a4b4991">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails chessServer: development" uuid="49530862-d979-4642-b7d2-57a538582e65">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails chessServer: test" uuid="399dbbb6-c6bc-4318-ad51-ced71510d696">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
