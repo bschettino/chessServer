@@ -2,11 +2,11 @@ ChessServer::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :games, :only => [] do
+      resources :games, :only => [:index] do
         collection do
           post :play
-          get :new
-          get :join
+          post :new
+          post :join
         end
       end
     end
