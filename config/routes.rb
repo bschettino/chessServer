@@ -2,11 +2,24 @@ ChessServer::Application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :games, :only => [:index] do
+      resources :games, :only => [:show] do
         collection do
-          post :play
-          post :new
-          post :join
+          get :new_game
+          get :join
+        end
+      end
+      resources :moves, :only => [:show] do
+        collection do
+          get :new_move
+          get :validate
+          get :waiting_validation
+        end
+      end
+      resources :game_over_requests, :only => [:show] do
+        collection do
+          get :won
+          get :lost
+          get :waiting_validation
         end
       end
     end

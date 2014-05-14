@@ -3,7 +3,7 @@ class CreateGamePlayer < ActiveRecord::Migration
     create_table :game_players do |t|
       t.integer :player_id, :references => Player
       t.integer :game_id, :references => Game
-      t.integer :checks_count
+      t.string :player_key
       t.timestamps
     end
   end

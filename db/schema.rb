@@ -11,12 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140410181650) do
+ActiveRecord::Schema.define(:version => 20140514181827) do
+
+  create_table "game_over_requests", :force => true do |t|
+    t.integer  "game_id"
+    t.integer  "winner_id"
+    t.integer  "requestor_id"
+    t.boolean  "legal"
+    t.datetime "validation_time"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
 
   create_table "game_players", :force => true do |t|
     t.integer  "player_id"
     t.integer  "game_id"
     t.integer  "checks_count"
+    t.string   "player_key"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
   end
@@ -27,6 +38,16 @@ ActiveRecord::Schema.define(:version => 20140410181650) do
     t.boolean  "over",        :default => false
     t.datetime "created_at",                     :null => false
     t.datetime "updated_at",                     :null => false
+  end
+
+  create_table "moves", :force => true do |t|
+    t.string   "from",            :limit => 2
+    t.string   "to",              :limit => 2
+    t.integer  "game_player_id"
+    t.boolean  "legal"
+    t.datetime "validation_time"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
   end
 
   create_table "pieces", :force => true do |t|

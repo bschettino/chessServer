@@ -7,8 +7,23 @@ pt-BR:
         already_playing: "Este jogador já está participando do jogo"
         max_number_reached: "Este jogo já atingiu o limite máximo de jogadores"
         game_not_found: "Jogo não encontrado"
+        game_player_not_found: "Jogador não encontrado"
+      move:
+        move_not_found: "Jogada não encontrada"
+        player_cant_validate: "O jogador não pode validar a própria jogada"
+        last_move_not_validated: "A última jogada ainda não foi validada"
+        last_move_from_same_player: "A última jogada foi feita pelo mesmo jogador"
+        player_one_should_start_game: "O Jogador 1 deve iniciar o jogo"
+        no_moves_to_validate: "Sem jogadas para validar"
+        already_validated: "Essa jogada já foi validada"
+      game_over_request:
+        waiting_other_player_validation: "Aguardando validação do outro jogador"
+        game_finished: "Jogo encerrado com sucesso"
+        request_refused: "Requisição de fim de jogo recusada"
+        not_found: "Requisição de fim de jogo não encontrada"
       http_response:
         success: "Sucesso"
+        invalid_boolean: "Valor booleano inválido. Deve ser 'true' ou 'false'"
         error_mis_param: "Parâmetros insuficientes. Confira a documentação em https://github.com/bschettino/chessServer/blob/master/README.md"
   date:
     abbr_day_names:

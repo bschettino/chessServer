@@ -1,6 +1,6 @@
 #encoding: utf-8
 class Piece < ActiveRecord::Base
-  attr_accessible :kind, :alive, :player_id, :player
+  attr_accessible :kind, :alive, :player_id, :player, :game_id
 
   belongs_to :player
   has_one :square
@@ -15,5 +15,9 @@ class Piece < ActiveRecord::Base
   TYPES = [TYPE_ROOK, TYPE_KNIGHT, TYPE_BISHOP, TYPE_QUEEN, TYPE_KING, TYPE_PAWN]
 
   validates :kind, :presence => true, :inclusion => {:in => TYPES}
+
+  def kill
+    self.update_attributes(:alive => false)
+  end
 
 end
