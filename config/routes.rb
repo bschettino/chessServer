@@ -17,13 +17,14 @@ ChessServer::Application.routes.draw do
       end
       resources :game_over_requests, :only => [:show] do
         collection do
-          get :won
-          get :lost
+          get :new_game_over_request
           get :waiting_validation
         end
       end
     end
   end
+
+  root :to => 'application#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

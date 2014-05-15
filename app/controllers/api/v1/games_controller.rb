@@ -46,15 +46,15 @@ class Api::V1::GamesController < ApplicationController
   end
 
   #params: id
-  #response: :code, :message, :board
+  #response: :code, :message, :game[board, next_player, over, winner]
   def show
     respond_with({:code => HttpResponse::CODE_ERROR_MISSING_PARAMETER, :message => HttpResponse.code_msg(HttpResponse::CODE_ERROR_MISSING_PARAMETER)}) and return unless params[:id]
 
     begin
       game = Game.where(:id => params[:id]).last
+      respond_with({:code => HttpResponse::CODE_GAME_NOT_FOUND, :message => HttpResponse.code_msg(HttpResponse::CODE_GAME_NOT_FOUND)}) and return unless game
       over = !game.winner.nil?
       winner = game.winner.try(:name)
-      respond_with({:code => HttpResponse::CODE_GAME_NOT_FOUND, :message => HttpResponse.code_msg(HttpResponse::CODE_GAME_NOT_FOUND)}) and return unless game
       respond_with({:code => HttpResponse::CODE_SUCCESS, :message => HttpResponse.code_msg(HttpResponse::CODE_SUCCESS),
                     :game => {:board => game.current_board, :next_player => game.next_player.name, :over => over,
                     :winner => winner}})

@@ -63,10 +63,11 @@ class Api::V1::MovesController < ApplicationController
       game = Game.where(:id => params[:game_id]).last
       respond_with({:code => HttpResponse::CODE_GAME_NOT_FOUND, :message => HttpResponse.code_msg(HttpResponse::CODE_GAME_NOT_FOUND)}) and return unless game
       move = game.moves.where('validation_time IS NULL').last
-      respond_with({:code => HttpResponse::CODE_SUCCESS, :message => HttpResponse.code_msg(HttpResponse::CODE_SUCCESS), :move_id => move.id}) and return if move
+      respond_with({:code => HttpResponse::CODE_SUCCESS, :message => HttpResponse.code_msg(HttpResponse::CODE_SUCCESS), :move_id => move.id,
+                    :move_from => move.from, :move_to => move.to}) and return if move
 
       next_player = game.next_player
-      respond_with({:code => HttpResponse::CODE_SUCCESS, :message => HttpResponse.code_msg(HttpResponse::CODE_SUCCESS),
+      respond_with({:code => HttpResponse::CODE_NO_MOVES_TO_VALIDATE, :message => HttpResponse.code_msg(HttpResponse::CODE_NO_MOVES_TO_VALIDATE),
                     :board => game.current_board, :next_player => next_player.name})
 
     rescue Exception => e
@@ -76,7 +77,7 @@ class Api::V1::MovesController < ApplicationController
   end
 
   #params: id
-  #response: :code, :message, :move_from, :move_to
+  #response: :code, :message, :move => {:rom, :to, :legal, :validation_time}
   def show
     respond_with({:code => HttpResponse::CODE_ERROR_MISSING_PARAMETER, :message => HttpResponse.code_msg(HttpResponse::CODE_ERROR_MISSING_PARAMETER)}) and return unless params[:id]
     begin

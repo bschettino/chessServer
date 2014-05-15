@@ -19,6 +19,7 @@ class HttpResponse
   CODE_NO_MOVES_TO_VALIDATE = 16
   CODE_ALREADY_VALIDATED = 17
   CODE_GOR_NOT_FOUND = 18
+  CODE_NO_GOR_TO_VALIDATE = 19
 
   VALID_BOOLEAN_VALUES = ['true', 'false']
 
@@ -43,7 +44,7 @@ class HttpResponse
       when CODE_PLAYER_CANT_VALIDATE
         I18n.t("messages.errors.move.player_cant_validate")
       when CODE_LAST_MOVE_NOT_VALIDATED
-        I18n.t("messages.errors.http_response.last_move_not_validated")
+        I18n.t("messages.errors.move.last_move_not_validated")
       when CODE_LAST_MOVE_FROM_SAME_PLAYER
         I18n.t("messages.errors.move.last_move_from_same_player")
       when CODE_INVALID_BOOLEAN
@@ -57,11 +58,13 @@ class HttpResponse
       when CODE_REQUEST_REFUSED
         I18n.t("messages.errors.game_over_request.request_refused")
       when CODE_NO_MOVES_TO_VALIDATE
-        I18n.t("messages.errors.moves.no_moves_to_validate")
+        I18n.t("messages.errors.move.no_moves_to_validate")
       when CODE_ALREADY_VALIDATED
         I18n.t("messages.errors.move.already_validated")
       when CODE_GOR_NOT_FOUND
         I18n.t("messages.errors.game_over_request.not_found")
+      when CODE_NO_GOR_TO_VALIDATE
+        I18n.t("messages.errors.game_over_request.no_gor_to_validate")
     end
 
   end

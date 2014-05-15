@@ -21,6 +21,7 @@ pt-BR:
         game_finished: "Jogo encerrado com sucesso"
         request_refused: "Requisição de fim de jogo recusada"
         not_found: "Requisição de fim de jogo não encontrada"
+        no_gor_to_validate: "Sem requisições de fim de jogo para validar"
       http_response:
         success: "Sucesso"
         invalid_boolean: "Valor booleano inválido. Deve ser 'true' ou 'false'"
