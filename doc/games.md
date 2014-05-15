@@ -22,6 +22,10 @@ New game (POST)
     2. code, message; Caso ocorra algum erro
 
 
+
+* **IMPORTANTE: O jogador recebe um player_key diferente em cada jogo e essa chave deve ser utilizada para identificar o jogador em todas as chamadas seguintes**
+
+
 * **Exemplo de Sucesso**:
 
 

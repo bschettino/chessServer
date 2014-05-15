@@ -6,6 +6,8 @@ URL Principal: [Hosted on Heroku](http://secure-scrubland-6759.herokuapp.com/)
 API
 =======
 
+* Formatos aceitos: XML e JSON
+* [Tabuleiro] (https://github.com/bschettino/chessServer/blob/master/doc/board.md)
 * [Jogos] (https://github.com/bschettino/chessServer/blob/master/doc/games.md)
 * [Jogadas] (https://github.com/bschettino/chessServer/blob/master/doc/moves.md)
 * [Requisições de fim de jogo] (https://github.com/bschettino/chessServer/blob/master/doc/game_over_requests.md)

@@ -13,6 +13,9 @@ New move (POST)
 
 * **Parâmetros**: move_from, move_to, game_id, player_key
 
+* Os parâmetros **move_from** e **move_to** devem ser passados como as **casas do tabuleiro**
+
+        Por exemplo, para mover uma peça da casa a1 para casa c1, os parâmetros devem ser move_from = 'a1' e move_to = 'c1'
 
 * **Resposta**:
 
