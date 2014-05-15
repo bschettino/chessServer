@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3312928400">
+  <component name="DataSourceManagerImpl" format="xml" hash="1993398931">
     <data-source source="LOCAL" name="Rails apuracao: publico_homologacao" uuid="cd3738ff-367c-4c00-937a-9094563084d6">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
@@ -116,6 +116,13 @@
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/ppge_test</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails chessServer: production" uuid="72e2d242-fb4c-427e-be55-50bec8f696c9">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:chess_server_prod</jdbc-url>
       <user-name>root</user-name>
       <libraries />
     </data-source>

@@ -39,4 +39,13 @@
   <data-source source="LOCAL" name="Rails chessServer: test" uuid="399dbbb6-c6bc-4318-ad51-ced71510d696">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails ppge1: development" uuid="f5a796cc-029c-4f66-b9f9-31d2f0ad120e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails ppge1: test" uuid="4a95c3a1-7052-4c18-8d44-018ba57ee11f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails chessServer: production" uuid="72e2d242-fb4c-427e-be55-50bec8f696c9">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
