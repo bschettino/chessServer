@@ -20,8 +20,14 @@ class HttpResponse
   CODE_ALREADY_VALIDATED = 17
   CODE_GOR_NOT_FOUND = 18
   CODE_NO_GOR_TO_VALIDATE = 19
+  CODE_INVALID_RESULT = 20
 
   VALID_BOOLEAN_VALUES = ['true', 'false']
+
+  RESULT_LOST = -1
+  RESULT_DRAW = 0
+  RESULT_WON = 1
+  VALID_RESULT_VALUES = [RESULT_LOST, RESULT_DRAW, RESULT_WON]
 
   def self.code_msg(code)
     case(code)
@@ -65,6 +71,8 @@ class HttpResponse
         I18n.t("messages.errors.game_over_request.not_found")
       when CODE_NO_GOR_TO_VALIDATE
         I18n.t("messages.errors.game_over_request.no_gor_to_validate")
+      when CODE_INVALID_RESULT
+        I18n.t("messages.errors.game_over_request.invalid_result")
     end
 
   end

@@ -11,7 +11,7 @@ New Game Over Request (POST)
 * **PATH**: /api/v1/game_over_requests/new_game_over_request(.formato)
 
 
-* **Parâmetros**: game_id, player_key, won
+* **Parâmetros**: game_id, player_key, result (Deve ser -1 para derrota, 0 para empate e 1 para vitória)
 
 
 * **Resposta**:
@@ -25,7 +25,7 @@ New Game Over Request (POST)
 * **Exemplo de Sucesso** (Requisição criada):
 
 
-    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/game_over_requests/new_game_over_request.json?game_id=2&player_key=0f6b1ab0fcc518a997eb4edcb99ebe4ff79ba32c&won=true
+    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/game_over_requests/new_game_over_request.json?game_id=2&player_key=0f6b1ab0fcc518a997eb4edcb99ebe4ff79ba32c&result=1
 
 
     {"code":0,"message":"Sucesso","game_over_request_id":1}
@@ -34,7 +34,7 @@ New Game Over Request (POST)
 * **Exemplo de Erro**:
 
 
-    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/game_over_requests/won.json?game_id=2&player_key=77ce2f69c38594e0e9dc9bb456af8a936caffb71&won=true
+    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/game_over_requests/won.json?game_id=2&player_key=77ce2f69c38594e0e9dc9bb456af8a936caffb71&result=1
 
 
     {"code":15,"message":"Requisição de fim de jogo recusada"}
@@ -43,7 +43,7 @@ New Game Over Request (POST)
 * **Possíveis códigos de retorno** [(Documentação)] (https://github.com/bschettino/chessServer/blob/master/doc/response_codes.md):
 
 
-    CODE_ERROR_MISSING_PARAMETER, CODE_SUCCESS, CODE_UNKNOWN_ERROR, CODE_INVALID_BOOLEAN, CODE_GAME_NOT_FOUND, CODE_GAME_PLAYER_NOT_FOUND, CODE_WAITING_OTHER_PLAYER_VALIDATION, CODE_GAME_FINISHED, CODE_REQUEST_REFUSED.
+    CODE_ERROR_MISSING_PARAMETER, CODE_SUCCESS, CODE_UNKNOWN_ERROR, CODE_INVALID_RESULT, CODE_GAME_NOT_FOUND, CODE_GAME_PLAYER_NOT_FOUND, CODE_WAITING_OTHER_PLAYER_VALIDATION, CODE_GAME_FINISHED, CODE_REQUEST_REFUSED.
 
 
 Waiting Validation (GET)

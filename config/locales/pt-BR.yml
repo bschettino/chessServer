@@ -22,6 +22,7 @@ pt-BR:
         request_refused: "Requisição de fim de jogo recusada"
         not_found: "Requisição de fim de jogo não encontrada"
         no_gor_to_validate: "Sem requisições de fim de jogo para validar"
+        invalid_result: "Resultado inválido. Deve ser -1 para derrota, 0 para empate e 1 para vitória"
       http_response:
         success: "Sucesso"
         invalid_boolean: "Valor booleano inválido. Deve ser 'true' ou 'false'"
