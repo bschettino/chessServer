@@ -34,7 +34,7 @@ New Game Over Request (POST)
 * **Exemplo de Erro**:
 
 
-    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/game_over_requests/won.json?game_id=2&player_key=77ce2f69c38594e0e9dc9bb456af8a936caffb71&result=1
+    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/game_over_requests/new_game_over_request.json?game_id=2&player_key=77ce2f69c38594e0e9dc9bb456af8a936caffb71&result=1
 
 
     {"code":15,"message":"Requisição de fim de jogo recusada"}
