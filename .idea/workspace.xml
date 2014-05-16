@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f5400074-0b43-44a4-a17d-9b18f6288c86" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../apuracao/log/development.log" afterPath="$PROJECT_DIR$/../apuracao/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/games.md" afterPath="$PROJECT_DIR$/doc/games.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/moves.md" afterPath="$PROJECT_DIR$/doc/moves.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chessServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,34 +30,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="0.34456354" vertical-offset="0" max-vertical-offset="653">
+            <state line="15" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="-8.333333" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="board.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/board.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name="games_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="63" selection-start="112" selection-end="112" vertical-scroll-proportion="-2.7777777" vertical-offset="0" max-vertical-offset="525">
+            <state line="18" column="100" selection-start="986" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="piece.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/piece.rb">
+      <file leaf-file-name="square.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/square.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moves_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="117" selection-start="4366" selection-end="4366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game_over_requests_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="117" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
@@ -65,49 +81,16 @@
       <file leaf-file-name="game.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="59" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1350">
+            <state line="23" column="13" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/game_helper.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="79" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="response_codes.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/response_codes.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="55" selection-start="1602" selection-end="1658" vertical-scroll-proportion="-23.074074" vertical-offset="322" max-vertical-offset="1110">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="11" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flow.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/flow.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="-1.1111112" vertical-offset="0" max-vertical-offset="555">
+            <state line="32" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="0.5588235" vertical-offset="100" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -119,7 +102,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="-3.4756098" vertical-offset="0" max-vertical-offset="3000">
+            <state line="19" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="3000">
               <folding />
             </state>
           </provider>
@@ -131,7 +114,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="17" selection-start="353" selection-end="353" vertical-scroll-proportion="-13.333333" vertical-offset="15" max-vertical-offset="2250">
+            <state line="25" column="17" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="2250">
               <folding />
             </state>
           </provider>
@@ -150,8 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../apuracao/app/datatables/urnas_datatable.rb" />
-        <option value="$PROJECT_DIR$/../apuracao/app/datatables/secoes_datatable.rb" />
         <option value="$PROJECT_DIR$/../apuracao/vendor/eleicoes_core/lib/eleicoes_core/app/models/secao.rb" />
         <option value="$PROJECT_DIR$/../apuracao/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/../apuracao/config.ru" />
@@ -169,7 +150,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20140410181643_create_square.rb" />
         <option value="$PROJECT_DIR$/app/models/player.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140410181650_create_square.rb" />
-        <option value="$PROJECT_DIR$/app/models/square.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140410181649_create_piece.rb" />
         <option value="$PROJECT_DIR$/app/models/game_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/game_player.rb" />
@@ -179,13 +159,9 @@
         <option value="$PROJECT_DIR$/db/migrate/20140514181827_create_game_over_request.rb" />
         <option value="$PROJECT_DIR$/app/models/piece.rb" />
         <option value="$PROJECT_DIR$/app/models/move.rb" />
-        <option value="$PROJECT_DIR$/app/models/game.rb" />
         <option value="$PROJECT_DIR$/app/models/game_over_request.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" />
         <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
         <option value="$PROJECT_DIR$/app/models/http_response.rb" />
         <option value="$PROJECT_DIR$/doc/message_codes.md" />
@@ -193,7 +169,6 @@
         <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb" />
         <option value="$PROJECT_DIR$/doc/game_over_requests.md" />
         <option value="$PROJECT_DIR$/doc/flow.md" />
         <option value="$PROJECT_DIR$/doc/board.md" />
@@ -201,6 +176,14 @@
         <option value="$PROJECT_DIR$/doc/moves.md" />
         <option value="$PROJECT_DIR$/doc/games.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/../sctm/app/models/webservice.rb" />
+        <option value="$PROJECT_DIR$/app/models/square.rb" />
+        <option value="$PROJECT_DIR$/app/models/game.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/ws.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -236,13 +219,54 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="chessServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chessServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sctm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chessServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sctm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chessServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sctm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -437,6 +461,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -711,23 +736,23 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -746,9 +771,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -772,16 +797,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../apuracao/app/assets/javascripts/eleitores.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="357" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../apuracao/app/assets/javascripts/secoes.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../apuracao/app/assets/javascripts/urnas.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="35" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
@@ -873,19 +888,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140410181649_create_piece.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
+        <state line="6" column="23" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140410181650_create_square.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="54" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/square.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
@@ -902,9 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140410181600_create_game_player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="5" column="26" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140410181536_create_game.rb">
@@ -933,21 +939,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="11" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
+        <state line="33" column="11" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/game_over_request.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="28" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
@@ -974,46 +971,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="76" selection-start="1260" selection-end="1310" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="3645">
-          <folding />
-        </state>
+        <state line="26" column="76" selection-start="1260" selection-end="1310" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="3645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding>
-            <marker date="1400184263000" expanded="true" signature="-1:-1" placeholder=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="1491" selection-end="1510" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="62" selection-start="5761" selection-end="5780" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="61" selection-start="4188" selection-end="4206" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1155">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/game_over_requests.md">
@@ -1021,9 +989,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="2812" selection-end="2812" vertical-scroll-proportion="-6.5454545" vertical-offset="1200" max-vertical-offset="2085">
-          <folding />
-        </state>
+        <state line="104" column="0" selection-start="2812" selection-end="2812" vertical-scroll-proportion="-6.5454545" vertical-offset="1200" max-vertical-offset="2085" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/response_codes.md">
@@ -1031,7 +997,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="55" selection-start="1602" selection-end="1658" vertical-scroll-proportion="-23.074074" vertical-offset="322" max-vertical-offset="1110">
+        <state line="63" column="55" selection-start="1602" selection-end="1658" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
@@ -1041,7 +1007,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="-1.1111112" vertical-offset="0" max-vertical-offset="555">
+        <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
@@ -1049,13 +1015,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/piece.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="59" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1350">
           <folding />
         </state>
       </provider>
@@ -1072,7 +1031,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="112" selection-end="112" vertical-scroll-proportion="-2.7777777" vertical-offset="0" max-vertical-offset="525">
+        <state line="5" column="63" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
@@ -1089,7 +1048,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="-3.4756098" vertical-offset="0" max-vertical-offset="3000">
+        <state line="19" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="3000">
           <folding />
         </state>
       </provider>
@@ -1099,7 +1058,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="353" selection-end="353" vertical-scroll-proportion="-13.333333" vertical-offset="15" max-vertical-offset="2250">
+        <state line="25" column="17" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="2250">
           <folding />
         </state>
       </provider>
@@ -1109,7 +1068,56 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="0.34456354" vertical-offset="0" max-vertical-offset="653">
+        <state line="15" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="-8.333333" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sctm/app/models/webservice.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="821" selection-end="821" vertical-scroll-proportion="0.51724136" vertical-offset="60" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/square.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="100" selection-start="986" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="117" selection-start="4366" selection-end="4366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="117" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="0.5588235" vertical-offset="100" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
