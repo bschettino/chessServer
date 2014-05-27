@@ -17,33 +17,41 @@ New move (POST)
 * O parametro **type** deverá ter um dos seguintes valores:
 
 
-    Jogada comum = 0
-    Roque = 1
-    En Passant = 2
-    Promoção = 3
+        Jogada comum = 0
+
+        Roque = 1
+
+        En Passant = 2
+
+        Promoção = 3
 
 
 * O parametro **promotion_type** deverá ter um dos seguintes valores (As regras devem ser definidas pelos grupos):
 
 
-    Torre = 0
-    Cavalo = 1
-    Bispo = 2
-    Rainha = 3
-    Rei = 4
-    Peão = 5
+        Torre = 0
+
+        Cavalo = 1
+
+        Bispo = 2
+
+        Rainha = 3
+
+        Rei = 4
+        
+        Peão = 5
 
 
 * Os parametros a serem passados variam de acordo com o tipo de jogada escolhida:
 
 
-    Jogada comum: move_from, move_to, game_id, player_key, type
+        Jogada comum: move_from, move_to, game_id, player_key, type
 
-    Roque: rook_from, rook_to, king_from, king_to, game_id, player_key, type
+        Roque: rook_from, rook_to, king_from, king_to, game_id, player_key, type
 
-    En Passant: move_from, move_to, game_id, player_key, eliminated_pawn, type
+        En Passant: move_from, move_to, game_id, player_key, eliminated_pawn, type
 
-    Promoção: move_from, move_to, game_id, player_key, promotion_type, type
+        Promoção: move_from, move_to, game_id, player_key, promotion_type, type
 
 
 * Os parâmetros **move_from**, **move_to**, **rook_from**, **rook_to**, **king_from**, **king_to** e **eliminated_pawn**  devem ser passados como as **casas do tabuleiro**

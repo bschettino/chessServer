@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f5400074-0b43-44a4-a17d-9b18f6288c86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../apuracao/log/development.log" afterPath="$PROJECT_DIR$/../apuracao/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/http_response.rb" afterPath="$PROJECT_DIR$/app/models/http_response.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/move.rb" afterPath="$PROJECT_DIR$/app/models/move.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/moves.md" afterPath="$PROJECT_DIR$/doc/moves.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt-BR.yml" afterPath="$PROJECT_DIR$/config/locales/pt-BR.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/response_codes.md" afterPath="$PROJECT_DIR$/doc/response_codes.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chessServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,7 +95,7 @@
       <file leaf-file-name="moves.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/moves.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="26" selection-start="6558" selection-end="6558" vertical-scroll-proportion="4.828125" vertical-offset="0" max-vertical-offset="3570">
+            <state line="40" column="8" selection-start="674" selection-end="674" vertical-scroll-proportion="0.890625" vertical-offset="30" max-vertical-offset="3690">
               <folding />
             </state>
           </provider>
@@ -1035,7 +1026,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/moves.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="26" selection-start="6558" selection-end="6558" vertical-scroll-proportion="4.828125" vertical-offset="0" max-vertical-offset="3570">
+        <state line="40" column="8" selection-start="674" selection-end="674" vertical-scroll-proportion="0.890625" vertical-offset="30" max-vertical-offset="3690">
           <folding />
         </state>
       </provider>
