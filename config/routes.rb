@@ -4,20 +4,20 @@ ChessServer::Application.routes.draw do
     namespace :v1 do
       resources :games, :only => [:show] do
         collection do
-          post :new_game
-          post :join
+          get :new_game
+          get :join
         end
       end
       resources :moves, :only => [:show] do
         collection do
-          post :new_move
-          post :validate
+          get :new_move
+          get :validate
           get :waiting_validation
         end
       end
       resources :game_over_requests, :only => [:show] do
         collection do
-          post :new_game_over_request
+          get :new_game_over_request
           get :waiting_validation
         end
       end

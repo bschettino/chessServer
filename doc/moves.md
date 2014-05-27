@@ -11,16 +11,49 @@ New move (POST)
 * **PATH**: /api/v1/moves/new_move(.formato)
 
 
-* **Parâmetros**: move_from, move_to, game_id, player_key
+* **Parâmetros**: move_from, move_to, game_id, player_key, type, eliminated_pawn, promotion_type, rook_from, rook_to, king_from, king_to
 
-* Os parâmetros **move_from** e **move_to** devem ser passados como as **casas do tabuleiro**
+
+* O parametro **type** deverá ter um dos seguintes valores:
+
+
+    Jogada comum = 0
+    Roque = 1
+    En Passant = 2
+    Promoção = 3
+
+
+* O parametro **promotion_type** deverá ter um dos seguintes valores (As regras devem ser definidas pelos grupos):
+
+
+    Torre = 0
+    Cavalo = 1
+    Bispo = 2
+    Rainha = 3
+    Rei = 4
+    Peão = 5
+
+
+* Os parametros a serem passados variam de acordo com o tipo de jogada escolhida:
+
+
+    Jogada comum: move_from, move_to, game_id, player_key, type
+
+    Roque: rook_from, rook_to, king_from, king_to, game_id, player_key, type
+
+    En Passant: move_from, move_to, game_id, player_key, eliminated_pawn, type
+
+    Promoção: move_from, move_to, game_id, player_key, promotion_type, type
+
+
+* Os parâmetros **move_from**, **move_to**, **rook_from**, **rook_to**, **king_from**, **king_to** e **eliminated_pawn**  devem ser passados como as **casas do tabuleiro**
 
         Por exemplo, para mover uma peça da casa a1 para casa c1, os parâmetros devem ser move_from = 'a1' e move_to = 'c1'
 
 * **Resposta**:
 
 
-    1. code, message, e move_id; Caso a jogada seja criada com sucesso
+    1. code, message, e move; Caso a jogada seja criada com sucesso
 
     2. code, message; Caso ocorra algum erro
 
@@ -28,16 +61,18 @@ New move (POST)
 * **Exemplo de Sucesso**:
 
 
-    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/moves/new_move.json?player_key=77ce2f69c38594e0e9dc9bb456af8a936caffb71&game_id=2&move_from=c1&move_to=d2
+    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/moves/new_move.xml?move_from=c1&move_to=h2&promotion_type=3&game_id=1&player_key=f5f8ccbbb1d447a4c247b2e4b0f748cc0e55270c&type=3
 
 
-    {"code":0,"message":"Sucesso","move_id":1}
+    {"code":0,"message":"Sucesso",
+    "move":{"id":9,"move_type":3,"legal":null,"validation_time":null,
+    "movimentations":[{"from":"c1","to":"h2"}],"promotion_type":3}}
 
 
 * **Exemplo de Erro**:
 
 
-    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/moves/new_move.json?player_key=77ce2f69c38594e0e9dc9bb456af8a936caffb71&game_id=2&move_from=c1&move_to=d2
+    (POST) http://secure-scrubland-6759.herokuapp.com/api/v1/moves/new_move.json?player_key=77ce2f69c38594e0e9dc9bb456af8a936caffb71&game_id=2&move_from=c1&move_to=d2&type=0
 
 
     {"code":9,"message":"A úlltima jogada ainda não foi validada"}
@@ -45,7 +80,7 @@ New move (POST)
 * **Possíveis códigos de retorno** [(Documentação)] (https://github.com/bschettino/chessServer/blob/master/doc/response_codes.md):
 
 
-    CODE_ERROR_MISSING_PARAMETER, CODE_SUCCESS, CODE_UNKNOWN_ERROR, CODE_GAME_NOT_FOUND, CODE_GAME_PLAYER_NOT_FOUND, CODE_LAST_MOVE_NOT_VALIDATED, CODE_LAST_MOVE_FROM_SAME_PLAYER, CODE_LAST_MOVE_FROM_SAME_PLAYER, CODE_PLAYER_ONE_SHOULD_START_GAMEß.
+    CODE_ERROR_MISSING_PARAMETER, CODE_SUCCESS, CODE_UNKNOWN_ERROR, CODE_GAME_NOT_FOUND, CODE_GAME_PLAYER_NOT_FOUND, CODE_LAST_MOVE_NOT_VALIDATED, CODE_LAST_MOVE_FROM_SAME_PLAYER, CODE_LAST_MOVE_FROM_SAME_PLAYER, CODE_PLAYER_ONE_SHOULD_START_GAMEß, CODE_INVALID_MOVE_TYPE.
 
 
 Waiting Validation (GET)
@@ -62,7 +97,7 @@ Waiting Validation (GET)
 * **Resposta**:
 
 
-    1. code, message, move_from, move_to, move_id; Caso exista alguma jogada aguardando validação
+    1. code, message, move; Caso exista alguma jogada aguardando validação
 
     2. code, message, board, next_player; Caso não exista nenhuma jogada aguardando validação
 
@@ -75,7 +110,9 @@ Waiting Validation (GET)
     (GET) http://secure-scrubland-6759.herokuapp.com/api/v1/moves/waiting_validation.json?game_id=2
 
 
-    {"code":0,"message":"Sucesso","move_id":1,"move_from":"c1","move_to":"d2"}
+    {"code":0,"message":"Sucesso",
+    "move":{"id":9,"move_type":3,"legal":null,"validation_time":null,
+    "movimentations":[{"from":"c1","to":"h2"}],"promotion_type":3}}
 
 
 
@@ -167,7 +204,7 @@ Show (GET)
 * **Resposta**:
 
 
-    1. code, message, move [from, to, legal, validation_time}; Caso a jogada seja encontrada
+    1. code, message, move; Caso a jogada seja encontrada
 
     2. code, message; Caso ocorra algum erro
 
@@ -177,8 +214,9 @@ Show (GET)
 
     (GET) http://secure-scrubland-6759.herokuapp.com/api/v1/moves/1.json
 
-
-    {"code":0,"message":"Sucesso","move":{"from":"c1","to":"d2","legal":true,"validation_time":"2014-05-15T15:34:45-03:00"}}
+    {"code":0,"message":"Sucesso",
+    "move":{"id":9,"move_type":3,"legal":true,"validation_time":"2014-05-15T15:34:45-03:00",
+    "movimentations":[{"from":"c1","to":"h2"}],"promotion_type":3}}
 
 
 * **Exemplo de Erro**:

@@ -21,6 +21,7 @@ class HttpResponse
   CODE_GOR_NOT_FOUND = 18
   CODE_NO_GOR_TO_VALIDATE = 19
   CODE_INVALID_RESULT = 20
+  CODE_INVALID_MOVE_TYPE = 21
 
   VALID_BOOLEAN_VALUES = ['true', 'false']
 
@@ -73,6 +74,8 @@ class HttpResponse
         I18n.t("messages.errors.game_over_request.no_gor_to_validate")
       when CODE_INVALID_RESULT
         I18n.t("messages.errors.game_over_request.invalid_result")
+      when CODE_INVALID_MOVE_TYPE
+        I18n.t("messages.errors.move.invalid_move_type")
     end
 
   end

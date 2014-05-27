@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f5400074-0b43-44a4-a17d-9b18f6288c86" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../apuracao/log/development.log" afterPath="$PROJECT_DIR$/../apuracao/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/http_response.rb" afterPath="$PROJECT_DIR$/app/models/http_response.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/move.rb" afterPath="$PROJECT_DIR$/app/models/move.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/moves.md" afterPath="$PROJECT_DIR$/doc/moves.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/pt-BR.yml" afterPath="$PROJECT_DIR$/config/locales/pt-BR.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/response_codes.md" afterPath="$PROJECT_DIR$/doc/response_codes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chessServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,93 +35,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="http_response.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/http_response.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1350">
+            <state line="77" column="36" selection-start="3013" selection-end="3013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+              <folding>
+                <element signature="e#927#974#1" expanded="true" />
+                <element signature="e#2884#2942#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pt-BR.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="145" selection-start="858" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3675">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="move.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/move.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="780">
+            <state line="9" column="0" selection-start="311" selection-end="391" vertical-scroll-proportion="33.923077" vertical-offset="1017" max-vertical-offset="1635">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="piece.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/piece.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="7" column="0" selection-start="154" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="20140527165203_alter_table_moves.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140527165203_alter_table_moves.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.3429878" vertical-offset="0" max-vertical-offset="656">
+            <state line="19" column="36" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+      <file leaf-file-name="movimentation.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/movimentation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="7" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="87555">
+            <state line="5" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylish-portfolio.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/stylish-portfolio.css">
+      <file leaf-file-name="moves_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="40" selection-start="3454" selection-end="3454" vertical-scroll-proportion="-34.054546" vertical-offset="1487" max-vertical-offset="3615">
+            <state line="10" column="65" selection-start="490" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <file leaf-file-name="moves.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/moves.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="206" column="26" selection-start="6558" selection-end="6558" vertical-scroll-proportion="4.828125" vertical-offset="0" max-vertical-offset="3570">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../apuracao/app/assets/stylesheets/application.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../apuracao/app/assets/stylesheets/main.css">
+      <file leaf-file-name="response_codes.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/response_codes.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1331" column="12" selection-start="35775" selection-end="35785" vertical-scroll-proportion="-8.192307" vertical-offset="19752" max-vertical-offset="115650">
+            <state line="112" column="0" selection-start="1865" selection-end="1865" vertical-scroll-proportion="-19.25926" vertical-offset="1160" max-vertical-offset="1860">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="51" selection-end="51" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="195">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="text-editor">
+            <state line="9" column="82" selection-start="158" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -129,10 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../apuracao/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/api_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/game_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/games_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/response_code.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140410181527_create_player.rb" />
@@ -148,7 +165,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20140410181536_create_game.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140514181827_create_game_over_request.rb" />
         <option value="$PROJECT_DIR$/app/models/piece.rb" />
-        <option value="$PROJECT_DIR$/app/models/move.rb" />
         <option value="$PROJECT_DIR$/app/models/game_over_request.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
@@ -156,30 +172,35 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/doc/flow.md" />
         <option value="$PROJECT_DIR$/doc/board.md" />
-        <option value="$PROJECT_DIR$/doc/moves.md" />
         <option value="$PROJECT_DIR$/doc/games.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/../sctm/app/models/webservice.rb" />
         <option value="$PROJECT_DIR$/app/models/square.rb" />
         <option value="$PROJECT_DIR$/app/models/game.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/ws.rb" />
-        <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
-        <option value="$PROJECT_DIR$/app/models/http_response.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb" />
-        <option value="$PROJECT_DIR$/doc/response_codes.md" />
         <option value="$PROJECT_DIR$/doc/game_over_requests.md" />
         <option value="$PROJECT_DIR$/app/views/docs/_readme.html.md" />
         <option value="$PROJECT_DIR$/app/controllers/docs_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/docs/index.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/stylish-portfolio.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140527165047_alter_table_moves.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140527165159_create_table_movimentations.rb" />
+        <option value="$PROJECT_DIR$/app/models/movimentation.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140527165203_alter_table_moves.rb" />
+        <option value="$PROJECT_DIR$/app/models/move.rb" />
+        <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
+        <option value="$PROJECT_DIR$/app/models/http_response.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" />
+        <option value="$PROJECT_DIR$/doc/response_codes.md" />
+        <option value="$PROJECT_DIR$/doc/moves.md" />
       </list>
     </option>
   </component>
@@ -214,7 +235,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,70 +249,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apuracao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chessServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apuracao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chessServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apuracao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chessServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apuracao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chessServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="chessServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -307,15 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,15 +277,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chessServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chessServer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,7 +327,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,35 +363,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chessServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chessServer" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="v1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,11 +390,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/models" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/views/docs" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/doc" />
-      <recent name="$PROJECT_DIR$/app/views/application" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/controllers/api/v1" />
@@ -703,7 +648,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -720,11 +665,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -769,21 +714,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../api_sispos/trunk/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sctm/config/locales/pt-BR.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2535" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p545@chessServer/gems/activerecord-3.2.17/lib/active_record/persistence.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="10" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.3388306" vertical-offset="359" max-vertical-offset="5730" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sctm/vendor/pgci_core/lib/pgci_core/db/migrate/20110106140000_create_ies.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="82" selection-end="82" vertical-scroll-proportion="0.04411765" vertical-offset="0" max-vertical-offset="690" />
@@ -816,19 +746,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="5" column="44" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140410181527_create_player.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="4" selection-start="58" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140410181649_create_piece.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140410181650_create_square.rb">
@@ -838,14 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140513185223_create_moves.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="209" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140410181600_create_game_player.rb">
@@ -860,21 +776,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/game_player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140514181827_create_game_over_request.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="220" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/move.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="85" selection-start="119" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
+        <state line="4" column="16" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
@@ -884,180 +786,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/game_over_request.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="8" column="28" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="50" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="1065">
-          <folding />
-        </state>
+        <state line="59" column="50" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="1065" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/flow.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="555" />
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/piece.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/game_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="79" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="79" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/board.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="63" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="525" />
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/moves.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="3000">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/games.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="17" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="2250" />
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="2250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="-8.333333" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/square.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="23" column="13" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/games_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="100" selection-start="986" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="117" selection-start="4366" selection-end="4366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-          <folding />
-        </state>
+        <state line="18" column="100" selection-start="986" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../sctm/app/models/webservice.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="756" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="62" selection-start="510" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/http_response.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="636" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1290">
-          <folding>
-            <element signature="e#897#944#1" expanded="false" />
-            <element signature="e#2752#2814#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/response_codes.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="94" selection-start="301" selection-end="301" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="101" selection-start="1211" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3660">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="756" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/game_over_requests.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="101" selection-start="955" selection-end="955" vertical-scroll-proportion="-19.444445" vertical-offset="15" max-vertical-offset="2085" />
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="101" selection-start="955" selection-end="955" vertical-scroll-proportion="-19.444445" vertical-offset="15" max-vertical-offset="2085">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding>
-            <marker date="1400277756000" expanded="true" signature="-1:-1" placeholder=" ... end" />
-          </folding>
-        </state>
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="7" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="87555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1350">
           <folding />
         </state>
       </provider>
@@ -1071,7 +872,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../apuracao/app/assets/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1331" column="12" selection-start="35775" selection-end="35785" vertical-scroll-proportion="-8.192307" vertical-offset="19752" max-vertical-offset="115650">
+        <state line="1331" column="12" selection-start="35775" selection-end="35785" vertical-scroll-proportion="0.0" vertical-offset="19752" max-vertical-offset="115650">
           <folding />
         </state>
       </provider>
@@ -1085,14 +886,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="51" selection-end="51" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="195">
+        <state line="1" column="21" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/stylish-portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="40" selection-start="3454" selection-end="3454" vertical-scroll-proportion="-34.054546" vertical-offset="1487" max-vertical-offset="3615">
+        <state line="224" column="40" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.0" vertical-offset="1487" max-vertical-offset="3615">
           <folding />
         </state>
       </provider>
@@ -1113,9 +914,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.3429878" vertical-offset="0" max-vertical-offset="656">
+        <state line="15" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="515" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="69" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140514181827_create_game_over_request.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="366" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140513185223_create_moves.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="136" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140527165159_create_table_movimentations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140410181649_create_piece.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/movimentation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140527165203_alter_table_moves.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/http_response.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="36" selection-start="3013" selection-end="3013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+          <folding>
+            <element signature="e#927#974#1" expanded="true" />
+            <element signature="e#2884#2942#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/piece.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="154" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/move.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="311" selection-end="391" vertical-scroll-proportion="33.923077" vertical-offset="1017" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="65" selection-start="490" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="145" selection-start="858" selection-end="975" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state line="9" column="82" selection-start="158" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/response_codes.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="0" selection-start="1865" selection-end="1865" vertical-scroll-proportion="-19.25926" vertical-offset="1160" max-vertical-offset="1860">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/moves.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="206" column="26" selection-start="6558" selection-end="6558" vertical-scroll-proportion="4.828125" vertical-offset="0" max-vertical-offset="3570">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

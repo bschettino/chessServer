@@ -2,11 +2,24 @@ class Api::V1::MovesController < ApplicationController
 
   respond_to :json, :xml
 
-  #params: move_from, move_to, game_id, player_key
+  #params: move_from, move_to, game_id, player_key, type
   #response: :code, :message, :move_id
   def new_move
-    respond_with({:code => HttpResponse::CODE_ERROR_MISSING_PARAMETER, :message => HttpResponse.code_msg(HttpResponse::CODE_ERROR_MISSING_PARAMETER)}, :location => '') and return unless params[:player_key] && params[:game_id] && params[:move_from] && params[:move_to]
+    respond_with({:code => HttpResponse::CODE_ERROR_MISSING_PARAMETER, :message => HttpResponse.code_msg(HttpResponse::CODE_ERROR_MISSING_PARAMETER)}, :location => '') and return unless params[:player_key] && params[:game_id] && params[:type]
+
     begin
+      respond_with({:code => HttpResponse::CODE_INVALID_MOVE_TYPE, :message => HttpResponse.code_msg(HttpResponse::CODE_INVALID_MOVE_TYPE)}, :location => '') and return unless params[:type].to_i.in?(Move::TYPES)
+
+      case params[:type].to_i
+        when Move::TYPE_NORMAL
+          respond_with({:code => HttpResponse::CODE_ERROR_MISSING_PARAMETER, :message => HttpResponse.code_msg(HttpResponse::CODE_ERROR_MISSING_PARAMETER)}, :location => '') and return unless params[:move_from] && params[:move_to]
+        when Move::TYPE_CASTLING
+          respond_with({:code => HttpResponse::CODE_ERROR_MISSING_PARAMETER, :message => HttpResponse.code_msg(HttpResponse::CODE_ERROR_MISSING_PARAMETER)}, :location => '') and return unless params[:rook_from] && params[:rook_to] && params[:king_from] && params[:king_to]
+        when Move::TYPE_EN_PASSANT
+          respond_with({:code => HttpResponse::CODE_ERROR_MISSING_PARAMETER, :message => HttpResponse.code_msg(HttpResponse::CODE_ERROR_MISSING_PARAMETER)}, :location => '') and return unless params[:move_from] && params[:move_to] && params[:eliminated_pawn]
+        when Move::TYPE_PROMOTION
+          respond_with({:code => HttpResponse::CODE_ERROR_MISSING_PARAMETER, :message => HttpResponse.code_msg(HttpResponse::CODE_ERROR_MISSING_PARAMETER)}, :location => '') and return unless params[:move_from] && params[:move_to] && params[:promotion_type]
+      end
       game = Game.where(:id => params[:game_id]).last
       respond_with({:code => HttpResponse::CODE_GAME_NOT_FOUND, :message => HttpResponse.code_msg(HttpResponse::CODE_GAME_NOT_FOUND)}, :location => '') and return unless game
       gp = game.game_players.where(:player_key => params[:player_key]).last
@@ -24,9 +37,10 @@ class Api::V1::MovesController < ApplicationController
 
       end
 
-      move = Move.create(:from => params[:move_from], :to => params[:move_to], :game_player_id => gp.id)
+      move = Move.create_move(params, gp)
+
       respond_with({:code => HttpResponse::CODE_SUCCESS, :message => HttpResponse.code_msg(HttpResponse::CODE_SUCCESS),
-                    :move_id => move.id}, :location => '')
+                    :move => move.to_hash}, :location => '')
     rescue Exception => e
       respond_with({:code => HttpResponse::CODE_UNKNOWN_ERROR,
                     :message => HttpResponse.code_msg(HttpResponse::CODE_UNKNOWN_ERROR) + e.message}, :location => '')
@@ -63,8 +77,8 @@ class Api::V1::MovesController < ApplicationController
       game = Game.where(:id => params[:game_id]).last
       respond_with({:code => HttpResponse::CODE_GAME_NOT_FOUND, :message => HttpResponse.code_msg(HttpResponse::CODE_GAME_NOT_FOUND)}) and return unless game
       move = game.moves.where('validation_time IS NULL').last
-      respond_with({:code => HttpResponse::CODE_SUCCESS, :message => HttpResponse.code_msg(HttpResponse::CODE_SUCCESS), :move_id => move.id,
-                    :move_from => move.from, :move_to => move.to}) and return if move
+      respond_with({:code => HttpResponse::CODE_SUCCESS, :message => HttpResponse.code_msg(HttpResponse::CODE_SUCCESS), :move => move.to_hash,
+                   }) and return if move
 
       next_player = game.next_player
       respond_with({:code => HttpResponse::CODE_NO_MOVES_TO_VALIDATE, :message => HttpResponse.code_msg(HttpResponse::CODE_NO_MOVES_TO_VALIDATE),
@@ -84,7 +98,7 @@ class Api::V1::MovesController < ApplicationController
       move = Move.where(:id => params[:id]).last
       respond_with({:code => HttpResponse::CODE_MOVE_NOT_FOUND, :message => HttpResponse.code_msg(HttpResponse::CODE_MOVE_NOT_FOUND)}) and return unless move
       respond_with({:code => HttpResponse::CODE_SUCCESS, :message => HttpResponse.code_msg(HttpResponse::CODE_SUCCESS),
-                    :move => {:from => move.from, :to => move.to, :legal => move.legal, :validation_time => move.validation_time}})
+                    :move => move.to_hash})
     rescue Exception => e
       respond_with({:code => HttpResponse::CODE_UNKNOWN_ERROR,
                     :message => HttpResponse.code_msg(HttpResponse::CODE_UNKNOWN_ERROR) + e.message})

@@ -16,6 +16,7 @@ pt-BR:
         player_one_should_start_game: "O Jogador 1 deve iniciar o jogo"
         no_moves_to_validate: "Sem jogadas para validar"
         already_validated: "Essa jogada já foi validada"
+        invalid_move_type: "Tipo de jogada inválida. Confira a documentação em https://github.com/bschettino/chessServer/blob/master/doc/moves.md"
       game_over_request:
         waiting_other_player_validation: "Aguardando validação do outro jogador"
         game_finished: "Jogo encerrado com sucesso"

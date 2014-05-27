@@ -109,6 +109,10 @@ API - Códigos de resposta
 
     Resultado inválido. Deve ser -1 para derrota, 0 para empate e 1 para vitória
 
+* CODE_INVALID_MOVE_TYPE = 21
+
+
+    Tipo de jogada inválida. Confira a documentação em https://github.com/bschettino/chessServer/blob/master/doc/moves.md
 
 
 
