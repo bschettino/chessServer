@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f5400074-0b43-44a4-a17d-9b18f6288c86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../apuracao/log/development.log" afterPath="$PROJECT_DIR$/../apuracao/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/moves.md" afterPath="$PROJECT_DIR$/doc/moves.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="chessServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="33" selection-start="520" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="http_response.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/http_response.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,15 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movimentation.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/movimentation.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="moves_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,7 +95,7 @@
       <file leaf-file-name="moves.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/moves.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="8" selection-start="674" selection-end="674" vertical-scroll-proportion="0.890625" vertical-offset="30" max-vertical-offset="3690">
+            <state line="40" column="8" selection-start="674" selection-end="674" vertical-scroll-proportion="0.796875" vertical-offset="90" max-vertical-offset="3690">
               <folding />
             </state>
           </provider>
@@ -180,7 +180,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140527165047_alter_table_moves.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140527165159_create_table_movimentations.rb" />
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/app/models/http_response.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/moves_controller.rb" />
         <option value="$PROJECT_DIR$/doc/response_codes.md" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/doc/moves.md" />
       </list>
     </option>
@@ -910,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="515" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/game_over_requests_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="69" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1380">
@@ -1024,9 +1017,16 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="520" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/moves.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="674" selection-end="674" vertical-scroll-proportion="0.890625" vertical-offset="30" max-vertical-offset="3690">
+        <state line="40" column="8" selection-start="674" selection-end="674" vertical-scroll-proportion="0.796875" vertical-offset="90" max-vertical-offset="3690">
           <folding />
         </state>
       </provider>
